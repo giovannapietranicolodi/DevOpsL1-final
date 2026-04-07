@@ -75,7 +75,7 @@ Jul 2025
 		<div class="container pt-6">
 
 			<h1 class="display-5 fw-bold">
-				Portfolio Project <div class="text-danger">Full Name </div>
+				Portfolio Project <div class="text-danger">Giovanna Pietra Nicolodi</div>
 			</h1>
 
 			<nav aria-label="breadcrumb">
@@ -129,10 +129,10 @@ Jul 2025
 
 							<p>
 								<strong>Question #1 : Explain what does it means Immutable infrastructure?</strong>
-								xxxxxxx xxxxxxxxxxxx
-								xxxxx xxxx, xxxx x xxxxxxxx
-								xxxxx xxxx, xxxx x xxxxxxxx
-								xxxxx xxxx, xxxx x xxxxxxxx
+								Immutable infrastructure is a model where servers and components are never modified after deployment.
+								Instead of updating a running server, you replace it entirely with a new image that includes the changes.
+								This ensures consistency across environments, eliminates configuration drift, and makes rollbacks simple —
+								just redeploy the previous image. Tools like Docker and Terraform are commonly used to implement this approach.
 							</p>
 
 							<div class="border-start border-primary border-3 py-1 px-3 my-5">
@@ -143,10 +143,11 @@ Jul 2025
 							<p>
 								<strong>Question #2 : Explain the next command: <br> $docker exec -it Ubuntu
 									/bin/bash</strong>
-								xxxxxxx xxxxxxxxxxxx
-								xxxxx xxxx, xxxx x xxxxxxxx
-								xxxxx xxxx, xxxx x xxxxxxxx
-								xxxxx xxxx, xxxx x xxxxxxxx
+								This command opens an interactive bash shell inside a running Docker container named "Ubuntu".
+								<code>exec</code> runs a command in an already-running container.
+								<code>-i</code> keeps stdin open (interactive mode) and <code>-t</code> allocates a pseudo-TTY terminal,
+								together allowing you to type commands. <code>/bin/bash</code> is the shell to launch.
+								It is commonly used to debug or inspect a live container from the inside.
 							</p>
 
 							<div class="mt-5">
