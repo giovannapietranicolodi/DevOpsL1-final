@@ -46,9 +46,9 @@ This is one of the most common debugging commands in Docker — it lets you insp
 
 | Environment | Project ID |
 |-------------|------------|
-| Testing     | final-gpn-test |
+| Testing     | final-gpn |
 | Staging     | final-gpn-stg |
-| Production  | final-gpn-prod |
+| Production  | gpn-default |
 
 ---
 
@@ -81,4 +81,4 @@ In your GitHub repo → Settings → Webhooks → Add webhook:
 
 ## Repo
 
-GitHub: [https://github.com/giovannapietranicolodi/final-gpn](https://github.com/giovannapietranicolodi/final-gpn)
+GitHub: [https://github.com/giovannapietranicolodi/DevOpsL1-final](https://github.com/giovannapietranicolodi/DevOpsL1-final)

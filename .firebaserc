@@ -1,8 +1,8 @@
 {
   "projects": {
     "default": "final-gpn-stg",
-    "test": "final-gpn-test",
+    "test": "final-gpn",
     "staging": "final-gpn-stg",
-    "production": "final-gpn-prod"
+    "production": "gpn-default"
   }
 }

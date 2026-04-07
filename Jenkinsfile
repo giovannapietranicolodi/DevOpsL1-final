@@ -18,7 +18,7 @@ pipeline {
         stage('Testing') {
             steps {
                 echo 'Deploying to Testing environment...'
-                sh 'firebase deploy --only hosting --project final-gpn-test --token $FIREBASE_TOKEN'
+                sh 'firebase deploy --only hosting --project final-gpn --token $FIREBASE_TOKEN'
             }
         }
 
@@ -32,7 +32,7 @@ pipeline {
         stage('Production') {
             steps {
                 echo 'Deploying to Production environment...'
-                sh 'firebase deploy --only hosting --project final-gpn-prod --token $FIREBASE_TOKEN'
+                sh 'firebase deploy --only hosting --project gpn-default --token $FIREBASE_TOKEN'
             }
         }
 
